@@ -46,7 +46,3 @@ describe("getAPIKey with invalid headers", () => {
     expect(apiKey).toBeNull();
     });
 });
-
-test("intentional failure", () => {
-    expect(true).toBe(false);
-});
